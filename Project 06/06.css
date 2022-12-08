@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    z-index:0;
+    background-color:#262626 ;
+}
+
+                       /* NAVBAR */
+.navbar{
+    padding:20px;
+    margin:10px;   
+}
+                      /* NAVBAR-FLEX */
+.navbar,.list{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+}
+                         /* LIST */
+.list{
+    list-style: none;
+    font-size:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+                    /* HOVER LIST */
+     .list-item:hover{
+        color:#ffff00 ;
+     }               
+
+                         /* BUTTON */
+button{
+    font-size:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 15px 8px 15px;
+    border:1px solid #ffff00;
+    color:#ffff00;
+    border-radius:5px;
+    font-weight: 600;
+}
+                        /* BUTTON HOVER*/
+button:hover{
+    color:#262626;
+    background-color: yellow;
+    border:2px black double;
+ }
+                          /* LOGO */
+.logo img{
+    width:70%;
+}
+
+                        /* POSITIONS */
+button{
+    position:absolute;
+    right:19.5%;
+    top:21px;
+}
+.list{
+    position: relative;
+    left:30%;
+}
+.logo{
+    position: absolute;
+    left:16%;
+}
+
+                          /* MAIN SECTION */
+.heading h1{
+    color:#ffffff;
+    position:absolute;
+    left:12.5%;
+    top:15%;   
+    width:25%;
+    font-size: 45px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+    padding:50px;
+    word-spacing: 20px;
+}
+
+
+p{
+    color:#ffffff;
+    position: absolute;
+    left:55%;
+    top:23%;
+    font-size:14px;
+    width: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    word-spacing: 5px;  
+    
+}
+                       /* IMAGE */
+ .img>img{
+position:absolute;
+width:65%;
+bottom:10px;
+left:16%;
+}                       

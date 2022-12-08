@@ -1,0 +1,144 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    padding:0px;
+    margin:0px;
+    /* z-index:0px; */
+}
+                                    /* NAVBAR  */
+.navbar{
+margin-top:0px;
+padding:10px;
+background-color: black;
+color:white;
+
+}
+
+                                    /* LOGO */
+.logo{
+width:60%;
+margin-left:30%;
+margin-top:5%;
+}
+                                    /* LINE */
+.line::before{
+   content: '';
+   position:absolute;
+   width:0.8px;
+   height:30px;
+   background-color:#ffffff;
+}
+  
+                                   /* LIST */
+.list{
+list-style:none;
+font-size:15px;
+}
+
+                                   /* FLEX  */
+.navbar,.line,.list{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items:center;
+    column-gap:60px;
+}
+
+                                  /* HOVER */
+/* ul>li:nth-child(even):hover::after{
+    
+    content:url('./assets/caret.svg');
+    position: relative;
+    bottom:0;
+    left:0;
+    right:20%;
+}
+ul>li:nth-child(odd):hover::after{
+    
+    content:url('./assets/caret.svg');
+    position: relative;
+    right:10%;
+} */
+
+                               /* NTH CHLID */
+ul>li>img:nth-child(1){
+    position:relative;
+    right:20%;   
+}
+ul>li:nth-child(1){
+   margin-top: -10px;
+}
+                              /* BUTTION1 */
+.button-small{
+position:absolute;
+right:10%;
+margin-top:-12px;
+padding:5px 18px 5px 18px;
+background-color: rgb(184, 11, 184);
+color:#ffffff;
+border-radius: 3px;
+border:none;
+font-size: 15px;
+font-weight:500;
+}
+.button-small:hover{
+   background-color: rgb(200, 82, 200);
+}
+
+
+
+
+                             /* MAIN SECTION */
+ .hero{
+    
+
+    position:absolute;
+    top:16%;
+    left:25%;
+ }  
+ .hero-heading{
+    font-size:95px;
+    width:70%;
+    color:#ffffff;
+ }    
+ 
+ .hero-description{
+    font-size:20px;
+    width:60%;
+    padding:10px;
+    margin-left:7%;
+    color:#ffffff;
+    font-weight: 1000;
+    letter-spacing: 5px;   
+ }    
+
+                               /* BUTTON2 */
+ .button-large{
+background-color: rgb(184, 11, 184);
+color:white;
+padding:10px 15px 10px 15px;
+font-size: 20px;
+border:none;
+border-radius: 8px;
+font-weight: 500;
+ }
+ 
+ .button-large{
+    position:relative;
+    left:23%;
+    margin-top:3%;
+ }
+ .button-large:hover{
+   background-color: rgb(200, 82, 200);
+}
+
+
+                           /* BACKGROUND IMAGE */
+ body{
+    background-image:url(./assets/bg.png);
+   background-size: 100vw 100vh;
+   background-repeat: no-repeat;
+}
+    
+ 
+ 

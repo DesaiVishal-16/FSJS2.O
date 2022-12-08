@@ -1,0 +1,201 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    padding:0px;
+    margin:0px;
+    z-index:0px;
+}
+
+.navbar-container,.list{
+    display:flex;
+    flex-direction: row;
+    gap:5%;
+    align-items: last baseline;
+    padding:1%;
+    margin:1%;
+}
+nav>div>img{
+    width:55%;
+    margin-left: 50px;
+}
+.list-item{
+    list-style:none;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20%;  
+    font-weight: 500; 
+}
+
+                                          /* HOVER */
+.list-item:hover::after{
+    content:'';
+    position:absolute;
+    width:35px;
+    height:1px;
+    margin-top:20px;
+    margin-left:-40px;
+    background-color: black;      
+}
+.list-item:hover{
+    font-weight: 700;
+}
+
+li:nth-child(3):hover::after{
+    content:'';
+    margin-left:-50px;
+    
+
+}
+li:nth-child(4):hover::after{
+    content:'';
+    width:25px;
+    margin-left:-32px;
+}
+
+
+
+                             /*SEARCH BUTTON */
+.button-group{
+    position:absolute;
+    right:10%;
+    display:flex;
+    flex-direction: row;
+    gap:10%;
+
+}
+ .search-icon>svg{
+    width:90%;
+    
+} 
+.nav-button{
+    padding:5px 30px 5px 30px;
+    border:2px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-weight: 500;
+} 
+                      /* SEARCH BUTTON HOVER */
+
+    .nav-button:hover{
+        color:#ffffff;
+        background-color: #000000;
+        border:1px solid #ffffff;
+     }       
+                                  /* SQUARE IMG */
+.square>img{
+    width:15%;
+    position: absolute;
+    bottom:5%;
+    left:18%;
+}
+                                  /* IMAGE */
+.hero-container>div>img{
+    width:25%;
+    position: absolute;
+    bottom:10%;
+    left:5%;
+}
+                                 /*  STAR1 */
+ .star1>img{
+    width:3%;
+    position: absolute;
+    right:10%;
+    top:20%;    
+}
+                              /* STAR2 */
+.star2>img{
+    width:2%;
+position:absolute;
+bottom:8%;
+left:40%;
+}
+                               /* GLOBE */
+.globe>img{
+    width:4%;
+    position: absolute;
+    left:45%;
+    top:20%;
+}
+
+                                   /* hero-container */
+.hero-container-right{
+    /* width:10%; */
+    position:absolute;
+    left:35%;
+    top:35%;
+}
+.hero-heading{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing:15px;
+}
+.hero-description{
+    width:60%;
+    padding:50px;
+    font-size: 17px;
+    margin-left: 5%;
+    text-align: center;
+
+}
+                             /* EMAIL BUTTON */
+.button-email{
+position: absolute;
+left: 20%;
+padding: 5px 20px 5px 20px;
+font-size: 20px;
+border-radius: 9px;
+background-color: #ffffff;
+font-weight: 500;
+font-family:Arial, Helvetica, sans-serif ;
+}
+
+                           /* EMAIL BUTTON HOVER */
+    .button-email:hover{
+        color:#ffffff;
+        background-color: #000000;
+        border:1px solid #ffffff;
+    }                       
+                                  /* JOIN BUTTON */
+.button-join{
+position:absolute;
+left:40%;
+top:94%;
+padding: 3px;
+font-size: 23px;
+border:1px solid black;
+color:white;
+background-color: black;
+border-radius: 7px;
+font-family:Arial, Helvetica, sans-serif ;
+}
+
+                          /* JOIN BUTTON HOVER */
+    .button-join:hover{
+        background-color:#ffffff;
+        color: #000000;
+        border:2px dotted #000000;
+
+    } 
+
+                                    /* CONTACT */
+.contact-heading{
+    position:absolute;
+    top:140%;
+    left:35%;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+                                          /* ICONS */
+.icons{
+    position: absolute;
+    top:150%;
+    left:30%;   
+}
+.icons>span>img{
+    width:30px;
+    margin-left: 10px;
+
+}
+                            /* ICONS HOVER */
+     .icons span img:hover{
+        width:20%;
+     }                       
