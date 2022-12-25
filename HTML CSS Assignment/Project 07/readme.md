@@ -1,5 +1,3 @@
-# Replicate the Following Output
+#Credit Card Landing Page
 
-`Assests are Provided!`
-
-![Project 1](./Credit%20card%20landing%20page.png)
+![Project 07](https://creditcardlandingpage16.netlify.app)
