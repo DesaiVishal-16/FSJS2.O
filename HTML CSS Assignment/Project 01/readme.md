@@ -1,3 +1,5 @@
 # Seo-Master
 
-[Project 01](https://seomaster16.netlify.app/)
+[Link](https://seomaster16.netlify.app)
+
+![Project 01](./seomaster16.netlify.app.png)
