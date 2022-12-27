@@ -1,5 +1,5 @@
-# DOCTOR
+# JUSTICE
 
 [Link](https://justice16.netlify.app)
 
-![Project 05](./output.png)
+![Project 06](./output.png)
