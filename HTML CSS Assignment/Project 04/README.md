@@ -1,5 +1,5 @@
 # HEADPHONES
 
-[Link](headphones16.netlify.app.png)
+[Link](https://headphones16.netlify.app)
 
 ![Project 03](./output.png)
