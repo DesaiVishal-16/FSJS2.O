@@ -1,5 +1,6 @@
-# Replicate the Following Output
+# Hosting Site
 
-`Assests are Provided!`
+[Link](https://game-site16.netlify.app)
 
-![Project 3](./Gaming%20Landing%20Page.png)
+![Project 09](./output.png)
+
