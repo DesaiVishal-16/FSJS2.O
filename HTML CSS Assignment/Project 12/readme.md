@@ -1,5 +1,6 @@
-# Replicate the Following Output
+# Data Analytics Landing Page
 
-`Assests are Provided!`
+[Link](https://data-analytics-landing-page16.netlify.app)
 
-![Project 6](./Data%20Analytics%20Landing%20page.png)
+![Project 12](./output.png)
+
