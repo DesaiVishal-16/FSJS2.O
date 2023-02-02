@@ -1,4 +1,5 @@
-//Declare an array containing the multiple values and use lastIndexOf to determine the position of the first and last occurrence of a word "pw skills".
+//Declare an array containing the multiple values and use lastIndexOf to determine the 
+//position of the first and last occurrence of a word "pw skills".
 
 let occ=["ineuron","pw skills","edureka","occurance","pw skills"]
 
