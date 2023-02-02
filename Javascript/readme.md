@@ -1,7 +1,6 @@
-# <img height="24px" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"> Q&A:
+# <img height="24px" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"> `Q&A:`
 
-### 1. Create a variable.js file and declare variables and assign string, boolean, undefined and
-  null data types,Display all the value with their data type.
+### 1. Create a variable.js file and declare variables and assign string, boolean, undefined andnull data types,Display all the value with their data type.
 
 ```js
 let str='stringsss';
@@ -17,7 +16,7 @@ console.log("undef is",typeof undef);  //undefined
 console.log("n is",typeof n);          //null
 ``` 
 
-2. Declare variables to store your first name, last name, marital status, country and age and display them using interploation method.
+### 2. Declare variables to store your first name, last name, marital status, country and age and display them using interploation method.
 
 ```js
 let firstName="vishal";
@@ -30,20 +29,20 @@ let age=21;
 console.log(`${firstName}  ${lastName}  I'm from ${country}.  I'm ${age} years old and I'm ${maritalStatus}`);
 ```
 
-3. Declare a varibale and assign string value to it and change all the string characters to capital letters using toUpperCase() method
+### 3. Declare a varibale and assign string value to it and change all the string characters to capital letters using toUpperCase() method
 
 ```js
 let capital="uppercase";
 console.log(capital.toUpperCase());
 ```
-4. Declare a varibale and assign string value to it and check if the string 
+### 4. Declare a varibale and assign string value to it and check if the string 
 contains a word Script using includes() method
 
 ```js
 let incl="it is javascript"
 console.log(incl.includes("script"));
 ```
-5. Declare a varibale and assign string value to it and then split it into 
+### 5. Declare a varibale and assign string value to it and then split it into 
 an array using split() method
 
 ```js
@@ -52,16 +51,14 @@ const arr = sp.split();
 console.log(arr);
 console.log(sp.split(''));
 ```
-6. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the 
-comma and change it to an array
+### 6. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array
 
 ```js
 let faang='Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
 const arr=faang.split(',');
 console.log(arr);
 ```
-7. Declare an array containing the multiple values and use lastIndexOf to determine the 
-position of the first and last occurrence of a word "pw skills".
+### 7. Declare an array containing the multiple values and use lastIndexOf to determine the position of the first and last occurrence of a word "pw skills".
 
 ```js
 let occ=["ineuron","pw skills","edureka","occurance","pw skills"]
@@ -72,8 +69,7 @@ console.log(occ.lastIndexOf("pw skills"));
 // this gives first occurance
 console.log(occ.indexOf("pw skills"));
 ```
-8. Demonstrate the use of trim() to remove any trailing whitespace at 
-the beginning and the end of a string.
+### 8. Demonstrate the use of trim() to remove any trailing whitespace at the beginning and the end of a string.
 
 ```js
 let tm="       string      ";
@@ -83,9 +79,9 @@ console.log(tm.trim());
 //this gives  length of a string without whitespaces
 console.log(tm.trim().length);
 ```
-9. Boolean value is either true or false.
-- Write three JavaScript statement example which provide truthy value.
-- Write three JavaScript statement example which provide falsy value.
+### 9. Boolean value is either true or false.
+### - Write three JavaScript statement example which provide truthy value.
+### - Write three JavaScript statement example which provide falsy value.
 
 ```js
 //this gives truthy value
@@ -98,7 +94,7 @@ console.log(Boolean(false));
 console.log(Boolean(2==='2'));
 console.log(Boolean(null===undefined));
 ```
-10.Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+### 10.Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
  - 4 > 3
  - 4 >= 3
  - 4 < 3
@@ -148,7 +144,7 @@ console.log(jr.length);
 
 console.log(`${py.length != jr.length}`);
  ```
- 11. Use the Date object to do the following activities
+ ### 11. Use the Date object to do the following activities
 - What is the year today?
 - What is the month today as a number?
 - What is the date today?
@@ -173,7 +169,7 @@ let elsp=new Date(1960,01,01);
 
 console.log(`sec elapsed from jan 1 1970 to now = ${Math.round((obj-elsp)/1000)}`);
 ```
-12. Create a human readable time format using the Date time object
+### 12. Create a human readable time format using the Date time object
      - YYYY-MM-DD HH:mm
      - DD-MM-YYYY HH:mm
      - DD/MM/YYYY HH:mm
@@ -199,7 +195,7 @@ console.log(`DD-MM-YYYY HH:mm = ${readable.getDate()}-${month}-${readable.getFul
 
 console.log(`DD/MM/YYYY HH:mm = ${readable.getDate()}/${month}/${readable.getFullYear()}  ${hours}:${min}`);
 ```     
-13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' 
+### 13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' 
 but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
 
 ```js
@@ -211,8 +207,7 @@ else{
     console.log(`Wait For ${18-age} years to drive`);
 }
 ```
-14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? 
-Create a program which checks that the given number is even or odd.
+### 14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
 
 ```js
 let number=5;
@@ -225,7 +220,7 @@ else{
 console.log(number);
 ```
 
-15. Write a program which can give grades to students according to theirs scores:
+### 15. Write a program which can give grades to students according to theirs scores:
     - 80-100, A
     - 70-89, B
     - 60-69, C
@@ -255,11 +250,11 @@ console.log(number);
     }
     ```
 
-    16. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
-    - September, October or November, the season is Autumn.
-    - December, January or February, the season is Winter.
-    - March, April or May, the season is Spring
-    - June, July or August, the season is Summer
+### 16. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
+- September, October or November, the season is Autumn.
+- December, January or February, the season is Winter.
+- March, April or May, the season is Spring
+- June, July or August, the season is Summer
 
     ```js
     let month="january";
@@ -276,11 +271,11 @@ console.log(number);
     console.log("invalid month");
     }
     ```
-    17.  Write a program which tells the number of days in a month.
-    - let days=new Date()
-    - console.log(days.getMonth());
-    - console.log(days.getDate());
-    - console.log(days.getDay());
+### 17.  Write a program which tells the number of days in a month.
+- let days=new Date()
+- console.log(days.getMonth());
+- console.log(days.getDate());
+- console.log(days.getDay());
     ```js
     let month="MARCH";
     month=month.toLowerCase();
@@ -302,7 +297,7 @@ console.log(number);
     console.log(`${month} not valid month`);
     }
     ```
-    18. Write a program which tells the number of days in a month, now consider leap year.
+### 18. Write a program which tells the number of days in a month, now consider leap year.
 
    ```js
     let getleapdays= function(month,year){
@@ -311,7 +306,7 @@ console.log(number);
     console.log(getleapdays(2,2020));
    ```
 
-   19. Create a countries.js file and store the countries name into this file, create a file web_techs.js and store the popular web technology names into this file. Access both file in a third file named main.js
+### 19. Create a countries.js file and store the countries name into this file, create a file web_techs.js and store the popular web technology names into this file. Access both file in a third file named main.js
    ```js
    let countries = require('./countries.js')
    let WebTech = require('./web_techs.js')
@@ -328,7 +323,7 @@ console.log(number);
     module.exports=WebTech;
    ```
 
-   20. In the following shopping cart add, remove, edit items => const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+### 20. In the following shopping cart add, remove, edit items => const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
 - add 'Meat' in the beginning of your shopping cart if it  has not been already added
 - add Sugar at the end of your shopping cart if it has not been already added
 - remove 'Honey'
@@ -360,8 +355,7 @@ const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
  shoppingCart.splice(3, 1, "Green Tea");
  console.log('Green Tea is added',shoppingCart);
 ```
-21. In countries array check if 'Ethiopia' exists in the    array if it exists print 'ETHIOPIA'.
-  If it does not exist add to the countries list.
+### 21. In countries array check if 'Ethiopia' exists in the    array if it exists print 'ETHIOPIA'.If it does not exist add to the countries list.
   ```js
   let countries=['Ethiopia','India','China'];
 
@@ -372,8 +366,7 @@ const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
     console.log(countries);
    }
   ```
-22. The following is an array of 10 students ages:
- => const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+### 22. The following is an array of 10 students ages:=> const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
  - Sort the array and find the min and max age
  - Find the median age(one middle item or two middle items divided by two)
  - Find the average age(all items divided by number of items)
@@ -417,7 +410,7 @@ console.log(`The range of the Ages is ${Math.max(...sortAges)-Math.min(...sortAg
 
 console.log(`Comparison is ${Math.abs(Math.min(...sortAges)-averageAge)===Math.abs(Math.max(...sortAges)-averageAge)}`);
  ```
- 23. Write a program to check that the number given by the user is a prime number or not
+### 23. Write a program to check that the number given by the user is a prime number or not
 
  ```js
  const num = parseInt(prompt("Enter a number:"));
@@ -437,7 +430,7 @@ console.log(`Comparison is ${Math.abs(Math.min(...sortAges)-averageAge)===Math.a
  }
  ```
 
- 24. Write a program to create two array "even" and "odd" having even and odd number 
+### 24. Write a program to create two array "even" and "odd" having even and odd number 
 between the 0 to 100 (0 and 100 included).
 ```js
 let even=[];
@@ -453,9 +446,8 @@ for(let i=0;i<=100;i++)
 console.log("Even number from 0 to 100 is",even);
 console.log("Odd number  from 0 to 100 is",odd);
 ```
-25.  Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi.
- BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, 
-overweight or obese based the information given below.
+### 25.  Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi.
+### BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal,overweight or obese based the information given below.
 - The same groups apply to both men and women.
 - Underweight: BMI is less than 18.5
 - Normal weight: BMI is 18.5 to 24.9
@@ -481,7 +473,7 @@ const height = parseFloat(prompt("Enter your height in meters:"));
 const bmi = calBMI(weight, height);
 console.log(`Your BMI is ${bmi}.`);
 ```
-26.  Write a program to print the table of any number given by the user. The format of the output should be smiliar to the below example-
+### 26.  Write a program to print the table of any number given by the user. The format of the output should be smiliar to the below example-
 If the number given by the user is 2 then the output should look like this
 - 2 * 1 = 2
 - 2 * 2 = 4
@@ -494,7 +486,7 @@ for(let i=1;i<=10;i++){
     console.log(`${number}*${i}=${number*i}`); 
 }
 ```
-27. Write a program to print all the prime number between 0 to 100 (0 and 100 included).
+### 27. Write a program to print all the prime number between 0 to 100 (0 and 100 included).
 
 ```js
 function isPrime(num) {
@@ -509,7 +501,7 @@ for (let i = 0; i <= 100; i++) {
   if (isPrime(i)) console.log(i);
 }
 ```
-28. Write a program to print the given patterns using the   loops-
+### 28. Write a program to print the given patterns using the   loops-
 
 - a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
 ```
@@ -577,8 +569,7 @@ let num="3";
   }
 ``` 
 
-29.  Write a javascript program which takes the input of filename as string and
- prints the extension of the file in the console
+### 29.  Write a javascript program which takes the input of filename as string and prints the extension of the file in the console
 
  ```js
  let filename=prompt('Enter a file name');
@@ -589,8 +580,7 @@ let num="3";
   }else
     console.log('Enter valid filename with extension i.e filename.extension eg. "a.js"' );
  ```
-30. Create a simple calculator program in JavaScript which can perform the addition,
- substraction, multiplication and division on given numbers.
+### 30. Create a simple calculator program in JavaScript which can perform the addition,substraction, multiplication and division on given numbers.
 
  ```js
  let  firNum=parseFloat(prompt("Enter First Number"));
