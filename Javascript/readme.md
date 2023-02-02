@@ -513,9 +513,9 @@ for (let i = 0; i <= 100; i++) {
 
 - a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
 ```
-       *
- 	   **
- 	   ***
+*
+**
+***
 ```
 ```js
 let num=3;
@@ -551,9 +551,9 @@ console.log(square);
  ```    
 -	c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
 ```
- 	       *
-	      ***
-         *****  
+  *
+ ***
+*****  
 ``` 
 ```js
 let pyramid='';
