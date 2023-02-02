@@ -1,6 +1,6 @@
 # <img height="24px" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"> `Q&A:`
 
-### 1. Create a variable.js file and declare variables and assign string, boolean, undefined andnull data types,Display all the value with their data type.
+### 1. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types,Display all the value with their data type.
 
 ```js
 let str='stringsss';
@@ -35,15 +35,13 @@ console.log(`${firstName}  ${lastName}  I'm from ${country}.  I'm ${age} years o
 let capital="uppercase";
 console.log(capital.toUpperCase());
 ```
-### 4. Declare a varibale and assign string value to it and check if the string 
-contains a word Script using includes() method
+### 4. Declare a varibale and assign string value to it and check if the string contains a word Script using includes() method
 
 ```js
 let incl="it is javascript"
 console.log(incl.includes("script"));
 ```
-### 5. Declare a varibale and assign string value to it and then split it into 
-an array using split() method
+### 5. Declare a varibale and assign string value to it and then split it into an array using split() method
 
 ```js
 let sp="A Apple a day keeps the doctor away";
@@ -430,8 +428,7 @@ console.log(`Comparison is ${Math.abs(Math.min(...sortAges)-averageAge)===Math.a
  }
  ```
 
-### 24. Write a program to create two array "even" and "odd" having even and odd number 
-between the 0 to 100 (0 and 100 included).
+### 24. Write a program to create two array "even" and "odd" having even and odd number between the 0 to 100 (0 and 100 included).
 ```js
 let even=[];
 let odd=[];
