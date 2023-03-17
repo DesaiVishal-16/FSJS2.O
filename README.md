@@ -4,6 +4,6 @@
 
 <br> 
 
-[Javascript](./Javascript) 
+[JAVASCRIPT](./Javascript) 
 
 
