@@ -4,6 +4,6 @@
 
 <br> 
 
-[Javascript] (https://github.com/DesaiVishal-16/FSJS2.O/tree/main/Javascript) 
+[Javascript](./Javascript) 
 
 
