@@ -2,6 +2,7 @@
 const body= document.querySelector('body');
 body.style.backgroundColor="black";
 body.style.height="100vh";
+body.style.overflow="hidden";
 
                  //TEXT
 const text=document.createElement("h1");

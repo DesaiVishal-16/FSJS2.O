@@ -53,8 +53,8 @@ screen.style.backgroundColor="black";
  reload.style.backgroundColor="#2827CC";
  reload.style.padding="25px 80px 25px 80px";
  reload.style.marginTop="40px";
- reload.style.marginLeft="630px"
- reload.style.borderRadius="25px";
+ reload.style.marginLeft="600px"
+ reload.style.borderRadius="50px";
  reload.style.borderColor="transparent";
 
          //BUTTON EVENT LISTENER
