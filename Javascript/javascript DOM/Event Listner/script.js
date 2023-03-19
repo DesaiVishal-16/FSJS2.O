@@ -29,7 +29,7 @@ body.style.backgroundColor="black";
     button1.textContent="SINGLE CLICK";
     button1.addEventListener("click",click);
     function click(){
-        button1.style.backgroundImage="url('./assets/PineTools.com_files/row-1-column-1.jpg')";
+        button1.style.backgroundImage="url('./assets/row-1-column-1.jpg')";
         button1.style.backgroundSize="cover";
     }
         //DOUBLE CLICK
@@ -37,7 +37,7 @@ body.style.backgroundColor="black";
     button2.textContent="DOUBLE CLICK";
     button2.addEventListener("dblclick",dblclick);
     function dblclick(){
-        button2.style.backgroundImage="url('./assets/PineTools.com_files/row-2-column-1.jpg')"; 
+        button2.style.backgroundImage="url('./assets/row-2-column-1.jpg')"; 
         button2.style.backgroundSize="cover";
     }
          //MOUSEOVER
@@ -45,7 +45,7 @@ body.style.backgroundColor="black";
     button3.textContent="MOUSEOVER";
     button3.addEventListener("mouseover",mouseover);
     function mouseover(){
-        button3.style.backgroundImage="url('./assets/PineTools.com_files/row-3-column-1.jpg')";
+        button3.style.backgroundImage="url('./assets/row-3-column-1.jpg')";
         button3.style.backgroundSize="cover";
     }
 
@@ -54,7 +54,7 @@ body.style.backgroundColor="black";
     button4.textContent="MOUSEOUT";
     button4.addEventListener("mouseout",mouseout);
     function mouseout(){
-        button4.style.backgroundImage="url('./assets/PineTools.com_files/row-4-column-1.jpg')";
+        button4.style.backgroundImage="url('./assets/row-4-column-1.jpg')";
         button4.style.backgroundSize="cover";
     }
 
@@ -63,7 +63,7 @@ body.style.backgroundColor="black";
     button5.textContent="KEYPRESS";
     button5.addEventListener("keypress",keypress);
     function keypress(){
-        button5.style.backgroundImage="url('./assets/PineTools.com_files/row-5-column-1.jpg')";
+        button5.style.backgroundImage="url('./assets/row-5-column-1.jpg')";
         button5.style.backgroundSize="cover";
     }  
          //KEYUP"
@@ -71,7 +71,7 @@ body.style.backgroundColor="black";
     button6.textContent="KEYUP";
     button6.addEventListener("keyup",keyup);
     function keyup(){
-        button6.style.backgroundImage="url('./assets/PineTools.com_files/row-6-column-1.jpg')";
+        button6.style.backgroundImage="url('./assets/row-6-column-1.jpg')";
         button6.style.backgroundSize="cover";
     }
          //KEYDOWN
@@ -79,7 +79,7 @@ body.style.backgroundColor="black";
     button7.textContent="KEYDOWN";
     button7.addEventListener("keydown",keydown);
     function keydown(){
-        button7.style.backgroundImage="url('./assets/PineTools.com_files/row-7-column-1.jpg')"; 
+        button7.style.backgroundImage="url('./assets/row-7-column-1.jpg')"; 
         button7.style.backgroundSize="cover";
     }
         //FOCUS
@@ -87,7 +87,7 @@ body.style.backgroundColor="black";
     button8.textContent="FOCUS ON BUTTON";
     button8.addEventListener("focus",focus);
     function focus(){
-        button8.style.backgroundImage="url('./assets/PineTools.com_files/row-8-column-1.jpg')";
+        button8.style.backgroundImage="url('./assets/row-8-column-1.jpg')";
         button8.style.backgroundSize="cover";
     }
        //BLUR
@@ -95,7 +95,7 @@ body.style.backgroundColor="black";
     button9.textContent="REMOVE FOCUS FROM BUTTON";
     button9.addEventListener("blur",blur);
     function blur(){
-        button9.style.backgroundImage="url('./assets/PineTools.com_files/row-9-column-1.jpg')";
+        button9.style.backgroundImage="url('./assets/row-9-column-1.jpg')";
         button9.style.backgroundSize="cover";
     }
 
@@ -105,7 +105,7 @@ body.style.backgroundColor="black";
     button10.addEventListener("keydown",a);
     function a(){
         if(event.key=="a"){
-        button10.style.backgroundImage="url('./assets/PineTools.com_files/row-10-column-1.jpg')";
+        button10.style.backgroundImage="url('./assets/row-10-column-1.jpg')";
         button10.style.backgroundSize="cover";
         }
     }
@@ -114,7 +114,7 @@ body.style.backgroundColor="black";
     button11.addEventListener("keydown",a1);
     function a1(){
         if(event.key=="1"){
-        button11.style.backgroundImage="url('./assets/PineTools.com_files/row-11-column-1.jpg')";
+        button11.style.backgroundImage="url('./assets/row-11-column-1.jpg')";
         button11.style.backgroundSize="cover";
         }
     }
@@ -125,7 +125,7 @@ body.style.backgroundColor="black";
     function alpha(){
         const alphabet= /^[a-zA-Z]$/; 
         if (alphabet.test(event.key)) {
-        button12.style.backgroundImage="url('./assets/PineTools.com_files/row-12-column-1.jpg')";
+        button12.style.backgroundImage="url('./assets/row-12-column-1.jpg')";
         button12.style.backgroundSize="cover";
         }
     }
@@ -135,7 +135,7 @@ body.style.backgroundColor="black";
     function numeric(){
         const numbers=/^[0-9]$/; 
         if (numbers.test(event.key)){
-        button13.style.backgroundImage="url('./assets/PineTools.com_files/row-13-column-1.jpg')";
+        button13.style.backgroundImage="url('./assets/row-13-column-1.jpg')";
         button13.style.backgroundSize="cover";
         }
     }
