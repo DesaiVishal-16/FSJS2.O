@@ -4,10 +4,10 @@
 > TO CHANGE COLOR OF H1 TAG TO "RED"
  
 **Before:**
-![Before Task01](./ass9.1-before.png)
+![Before Task01](./DOM%20P9/ass9.1-before.png)
 
 **After Update:**
-![After Task01](./ass9.1-after.png)
+![After Task01](./DOM%20P9/ass9.1-after.png)
 
 
 ```js
@@ -21,10 +21,10 @@ h1.style.color="red"
 > TO CHANGE COLOR OF BUTTON TO "RED" WHEN HOVER 
  
 **Before:**
-![Before Task02](./ass9.2-before.png)
+![Before Task02](./DOM%20P9/ass9.2-before.png)
 
 **After Update:**
-![After Task02](./ass9.2-after.png)
+![After Task02](./DOM%20P9/ass9.2-after.png)
 
 
 ```js
