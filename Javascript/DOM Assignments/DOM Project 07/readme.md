@@ -9,6 +9,7 @@
 ![Before Task01](./DOM%20P7/ass7.1-before.png)
 
 **After Update:**
+
 ![After Task01](./DOM%20P7/ass7.1-after.png)
 
 
