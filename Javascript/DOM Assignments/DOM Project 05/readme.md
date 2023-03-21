@@ -10,6 +10,7 @@
 ![Before Task01](./05_DOM%20Project/Output/before.png)
 
 **After Update:**
+![After Task01](./05_DOM%20Project/Output/DOM%20P2%20SS.png)
 ![After Task01](./05_DOM%20Project/Output/after05.png)
 
 
