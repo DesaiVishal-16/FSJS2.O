@@ -2,8 +2,6 @@
 
 > TO Change Background Color of Card Stats and Card Stats text color 
 
-
- 
 **Before:**
 ![Before Task01](./Output/dom%2004%20before.png)
 
