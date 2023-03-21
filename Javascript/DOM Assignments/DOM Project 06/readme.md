@@ -5,10 +5,10 @@
 > TO CHANGE LOGO TO "iNeuron" LOGO
  
 **Before:**
-![Before Task01](./Output/beforetask01.png)
+![Before Task01](./06_DOM%20Project/Output/beforetask01.png)
 
 **After Update:**
-![After Task01](./Output/DOM%20P3%20SS-1.png)
+![After Task01](./06_DOM%20Project/Output/DOM%20P3%20SS-1.png)
 
 
 ```js
@@ -30,10 +30,10 @@ document.addEventListener("DOMContentLoaded", function() {
 > TO CHANGE APP PRICE FROM "$4" TO "$10"
  
 **Before:**
-![Before Task02](./Output/beforetask02.png)
+![Before Task02](./06_DOM%20Project/Output/beforetask02.png)
 
 **After Update:**
-![After Task02](./Output/DOM%20P3%20SS-2.png)
+![After Task02](./06_DOM%20Project/Output/DOM%20P3%20SS-2.png)
 
 
 ```js
